@@ -1,0 +1,141 @@
+body {
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    font-family: "Outfit";
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+
+.container img {
+    width: 400px;
+    border-radius: 6px;
+}
+
+.container p {
+    font-size: small;
+}
+
+.time {
+    background-color: #fff7fc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.time h5 {
+    margin: 10px;
+    font-size: 1em;
+    padding-left: 10px;
+    color: maroon;
+}
+
+.time ul {
+    margin-top: 0;
+    font-size: small;
+}
+
+.time li {
+    padding: 5px;
+    list-style: square;
+}
+
+.ingredients h3 {
+    font-family: "Playfair Display";
+    color: maroon;
+}
+
+.ingredients li {
+    list-style: square;
+    font-size: small;
+}
+
+.ingredients ul {
+    padding-left: 15px;
+}
+
+.instructions h3 {
+    font-family: "Playfair Display";
+    color: maroon;
+}
+
+.instructions ol {
+    font-size: small;
+    padding-left: 15px;
+}
+
+.instructions li {
+    list-style: square;
+}
+
+.nutrition h3 {
+    color: maroon;
+    font-family: "Playfair Display";
+}
+
+.nutrition table {
+    font-size: small;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition td {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.gram {
+    color: maroon;
+}
+
+/* MEDIA QUERIES */
+/* MOBILE */
+
+@media (max-width:426px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+        margin-top: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .container img {
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .container h2 {
+        margin: 20px;
+    }
+
+    .container p {
+        margin: 20px;
+    }
+
+    .time {
+        margin: 20px;
+    }
+
+    .ingredients {
+        margin: 20px;
+    }
+
+    .instructions {
+        margin: 20px;
+    }
+
+    .nutrition {
+        margin: 20px;
+    }
+}
